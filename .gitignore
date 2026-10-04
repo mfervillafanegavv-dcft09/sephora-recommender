@@ -1,0 +1,41 @@
+# =========================
+# ENTORNOS VIRTUALES
+# =========================
+.venv/
+venv/
+
+# =========================
+# ARCHIVOS AUTOMÁTICOS DE PYTHON
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# DATOS
+# =========================
+
+# Datos originales descargados desde la fuente
+data/raw/*
+
+# Datos generados luego del procesamiento
+data/processed/*
+
+# Conservar la documentación de ambas carpetas
+!data/raw/README.md
+!data/processed/README.md
+
+# =========================
+# JUPYTER
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VARIABLES DE ENTORNO / CREDENCIALES
+# =========================
+.env
+
+# =========================
+# ARCHIVOS DEL SISTEMA
+# =========================
+.DS_Store
+Thumbs.db
