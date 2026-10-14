@@ -1,0 +1,23 @@
+{
+  "model": "Nexa v4 history-based",
+  "m_general": 100,
+  "transition_users": 100,
+  "global_mean": 4.290531794788749,
+  "similarity_rounding_decimals": 6,
+  "score_is_probability": false,
+  "scope": "Skincare discovery from positive training history; broad category and budget",
+  "evaluation_status": "exploratory; test previously inspected",
+  "versions": {
+    "python": "3.14.5",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0"
+  },
+  "source_sha256": {
+    "data\\processed\\recomendador_v2\\train.csv": "879d499da4e92d49d2e134a4a7675b00d03dcbe960834d03497d4ec8b6f8f397",
+    "data\\processed\\recomendador_v2\\estadisticas_generales_train.csv": "3eabcc62b1d36229544ab09f5c68c43a8bc75095e4e124f24129d206883a37a2",
+    "data\\processed\\recomendador_v2\\catalogo_skincare.csv": "a6dd7377a6295d8907f0ac562b305033415718d8410a6d7b39789d857e3151dd",
+    "data\\processed\\products_clean.csv": "a81f73fff8da118ca86e1eca774acb82c04bc77b30d6b6960aefe3bde17e0c14"
+  }
+}
