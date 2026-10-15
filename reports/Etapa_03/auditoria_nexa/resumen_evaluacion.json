@@ -1,0 +1,34 @@
+{
+  "test_ndcg_delta_vs_popularity": 0.06585837801690582,
+  "popularity_user_cluster_95_interval": [
+    0.06249596304418454,
+    0.06897118589861562
+  ],
+  "k": 10,
+  "m_general": 100,
+  "transition_users": 100.0,
+  "selection_metric": "Parámetros v4 congelados: m=100, t=100; auditoría sin reajuste",
+  "test_paired_ndcg_delta": 0.03771626690691567,
+  "bootstrap_user_cluster_95_interval": [
+    0.03532334463669878,
+    0.04018012410612582
+  ],
+  "test_users": 14632,
+  "budget_scenarios_usd": [
+    30,
+    60,
+    100,
+    "sin limite"
+  ],
+  "rule": "peso_contenido=t/(n_usuarios_producto+t); t=0 es baseline; sin historial positivo del usuario se usa baseline",
+  "similarity_rounding_decimals": 6,
+  "limitations": [
+    "Categoría del producto objetivo simula consulta; no es una intención observada.",
+    "Precio y catálogo corresponden a una captura, no al catálogo histórico.",
+    "Usuarios nuevos no incluidos: requieren evaluación adicional.",
+    "Atributos del catálogo son de una captura posterior; no conocemos su disponibilidad histórica. Similitud de ingredientes no demuestra compatibilidad clínica.",
+    "Relevancia solo observada en reseñas, no ventas; productos no reseñados no son negativos confirmados.",
+    "EDA previo consultó todo el dataset; la prueba no es completamente independiente del diseño.",
+    "Intervalo combinado incluye consultas repetidas entre presupuestos; remuestreo agrupado por usuario."
+  ]
+}

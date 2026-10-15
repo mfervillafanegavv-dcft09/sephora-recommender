@@ -1,0 +1,32 @@
+{
+  "input_reviews": 1093855,
+  "input_products": 8494,
+  "price_comparable_review_rows": 1093855,
+  "price_disagreement_review_rows": 0,
+  "skincare_catalog_products": 2420,
+  "skincare_products_invalid_price": 0,
+  "invalid_review_rows": 0,
+  "train_raw_rows": 875262,
+  "train_unique_pairs": 870693,
+  "validation_raw_rows": 109584,
+  "validation_unique_pairs": 109487,
+  "test_raw_rows": 109009,
+  "test_unique_pairs": 108911,
+  "validation_new_pairs_known_users": 55546,
+  "validation_positive_targets": 47941,
+  "validation_positive_targets_unknown_product": 23999,
+  "validation_new_users_pairs": 53851,
+  "test_new_pairs_known_users": 48607,
+  "test_positive_targets": 42514,
+  "test_positive_targets_unknown_product": 22840,
+  "test_new_users_pairs": 60233,
+  "train_end": "2022-02-01T00:00:00+00:00",
+  "validation_end": "2022-08-15T00:00:00+00:00",
+  "train_global_mean": 4.290531794788749,
+  "train_positive_rate": 0.8180702038491179,
+  "sources": [
+    "C:\\Users\\Administrator\\Documents\\DATA SCIENCE\\PF\\sephora-recommender\\data\\processed\\products_clean.parquet",
+    "C:\\Users\\Administrator\\Documents\\DATA SCIENCE\\PF\\sephora-recommender\\data\\processed\\reviews_clean.parquet"
+  ],
+  "catalog_snapshot_limitation": "Precio, categoría y existencia del producto corresponden a la captura, no al pasado; no hay stock/precios históricos."
+}

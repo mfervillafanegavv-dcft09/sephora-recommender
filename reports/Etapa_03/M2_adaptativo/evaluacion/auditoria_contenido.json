@@ -1,0 +1,9 @@
+{
+  "catalog_products": 2420,
+  "ingredients_non_null": 2286,
+  "highlights_non_null": 2003,
+  "evaluation_users": 29535,
+  "users_with_positive_content_profile": 27758,
+  "tfidf_features": 8000,
+  "fit_on_training_products_only": true
+}

@@ -1,0 +1,27 @@
+{
+  "k": 10,
+  "m_general": 100,
+  "m_skin": 100,
+  "selection_metric": "Macro NDCG@k promediado entre escenarios de presupuesto en validación",
+  "test_paired_ndcg_delta": -0.005627126507219934,
+  "bootstrap_user_cluster_95_interval": [
+    -0.006340475706737469,
+    -0.004831451651166183
+  ],
+  "test_users": 14632,
+  "budget_scenarios_usd": [
+    30,
+    60,
+    100,
+    "sin limite"
+  ],
+  "limitations": [
+    "Categoría del producto objetivo simula consulta; no es una intención observada.",
+    "Precio y catálogo corresponden a una captura, no al catálogo histórico.",
+    "Usuarios nuevos no incluidos: requieren evaluación adicional.",
+    "Productos sin reseñas se puntúan con la media global; no se afirma personalización para ellos.",
+    "Relevancia solo observada en reseñas, no ventas; productos no reseñados no son negativos confirmados.",
+    "EDA previo consultó todo el dataset; la prueba no es completamente independiente del diseño.",
+    "Intervalo combinado incluye consultas repetidas entre presupuestos; remuestreo agrupado por usuario."
+  ]
+}

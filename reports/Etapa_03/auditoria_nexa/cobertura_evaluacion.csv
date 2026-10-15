@@ -1,0 +1,9 @@
+﻿split,budget_usd,positive_targets_total,positive_targets_eligible,positive_targets_excluded,queries_user_category,distinct_users,positive_targets_new_product
+validation,30.0,47941,10373,37568,9421,7105,3441
+validation,60.0,47941,32619,15322,25446,16177,16430
+validation,100.0,47941,45681,2260,34004,20575,22652
+validation,inf,47941,47941,0,35079,21045,23999
+test,30.0,42514,9909,32605,8877,6393,3994
+test,60.0,42514,26630,15884,20096,11353,16110
+test,100.0,42514,39082,3432,26121,14016,21476
+test,inf,42514,42514,0,27650,14632,22840
