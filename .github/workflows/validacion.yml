@@ -1,0 +1,24 @@
+﻿name: Validacion automatica NEXA
+
+on:
+  push:
+    branches: [Fernanda]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validar-python:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Verificar sintaxis de archivos Python
+        run: |
+          python -m compileall -q src app
