@@ -1,0 +1,108 @@
+{
+  "model": "E2_A5_popularidad_protegida",
+  "protocol_id": "99fc64b0ea63f0e1e20f6a8a2d96aee1222e401c635a55983e8421df21673e4a",
+  "protocol_version": "cold-start-users-v2.0",
+  "selected_config": {
+    "k": 250,
+    "n_protegidos": 2
+  },
+  "validation": [
+    {
+      "k": 250,
+      "n_protegidos": 2,
+      "HR@10": 0.07,
+      "NDCG@10": 0.0383611671386286
+    },
+    {
+      "k": 250,
+      "n_protegidos": 1,
+      "HR@10": 0.068,
+      "NDCG@10": 0.03981792952523769
+    },
+    {
+      "k": 500,
+      "n_protegidos": 1,
+      "HR@10": 0.068,
+      "NDCG@10": 0.03854410840745102
+    },
+    {
+      "k": 250,
+      "n_protegidos": 4,
+      "HR@10": 0.068,
+      "NDCG@10": 0.03651915217342349
+    },
+    {
+      "k": 500,
+      "n_protegidos": 2,
+      "HR@10": 0.066,
+      "NDCG@10": 0.036442888039953575
+    },
+    {
+      "k": 500,
+      "n_protegidos": 3,
+      "HR@10": 0.066,
+      "NDCG@10": 0.03613137207547743
+    },
+    {
+      "k": 250,
+      "n_protegidos": 3,
+      "HR@10": 0.064,
+      "NDCG@10": 0.0356597321370662
+    },
+    {
+      "k": 500,
+      "n_protegidos": 4,
+      "HR@10": 0.062,
+      "NDCG@10": 0.034757200251852166
+    },
+    {
+      "k": 100,
+      "n_protegidos": 4,
+      "HR@10": 0.056,
+      "NDCG@10": 0.03265245951641934
+    },
+    {
+      "k": 100,
+      "n_protegidos": 1,
+      "HR@10": 0.054,
+      "NDCG@10": 0.032931954533869774
+    },
+    {
+      "k": 100,
+      "n_protegidos": 3,
+      "HR@10": 0.054,
+      "NDCG@10": 0.03207168441561318
+    },
+    {
+      "k": 100,
+      "n_protegidos": 2,
+      "HR@10": 0.054,
+      "NDCG@10": 0.031978504175685984
+    }
+  ],
+  "test": {
+    "users": 500,
+    "hits": 29,
+    "hit_rate_at_10": 0.058,
+    "ndcg_at_10": 0.026809172234179984,
+    "user_coverage": 1.0,
+    "full_top10_rate": 1.0,
+    "catalog_coverage": 0.09545454545454546,
+    "mean_recommendations": 10.0,
+    "mean_query_seconds": 0.004271016201470047
+  },
+  "baseline_test": {
+    "users": 500,
+    "hits": 37,
+    "hit_rate_at_10": 0.074,
+    "ndcg_at_10": 0.03316138770359746,
+    "user_coverage": 1.0,
+    "full_top10_rate": 1.0,
+    "catalog_coverage": 0.004132231404958678,
+    "mean_recommendations": 10.0,
+    "mean_query_seconds": 0.006653346786275506
+  },
+  "extra": {
+    "algorithm": "ProfilePopularityProtected"
+  }
+}

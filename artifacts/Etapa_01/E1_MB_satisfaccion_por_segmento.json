@@ -1,0 +1,91 @@
+{
+  "model": "02_satisfaccion_por_segmento",
+  "protocol_id": "99fc64b0ea63f0e1e20f6a8a2d96aee1222e401c635a55983e8421df21673e4a",
+  "protocol_version": "cold-start-users-v2.0",
+  "selected_config": {
+    "m": 100
+  },
+  "validation": [
+    {
+      "config": {
+        "m": 10
+      },
+      "users": 500,
+      "hits": 1,
+      "hit_rate_at_10": 0.002,
+      "ndcg_at_10": 0.001261859507142915,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.01487603305785124,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.010828332789242268
+    },
+    {
+      "config": {
+        "m": 20
+      },
+      "users": 500,
+      "hits": 1,
+      "hit_rate_at_10": 0.002,
+      "ndcg_at_10": 0.001261859507142915,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.011983471074380166,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.01336596440244466
+    },
+    {
+      "config": {
+        "m": 50
+      },
+      "users": 500,
+      "hits": 3,
+      "hit_rate_at_10": 0.006,
+      "ndcg_at_10": 0.002701342275925477,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.008264462809917356,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.012872643395792693
+    },
+    {
+      "config": {
+        "m": 100
+      },
+      "users": 500,
+      "hits": 8,
+      "hit_rate_at_10": 0.016,
+      "ndcg_at_10": 0.006418828021044382,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.0070247933884297524,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.012330650195479393
+    }
+  ],
+  "test": {
+    "users": 500,
+    "hits": 9,
+    "hit_rate_at_10": 0.018,
+    "ndcg_at_10": 0.007445192794709108,
+    "user_coverage": 1.0,
+    "full_top10_rate": 1.0,
+    "catalog_coverage": 0.0070247933884297524,
+    "mean_recommendations": 10.0,
+    "mean_query_seconds": 0.013316777002532035
+  },
+  "baseline_test": {
+    "users": 500,
+    "hits": 37,
+    "hit_rate_at_10": 0.074,
+    "ndcg_at_10": 0.03316138770359746,
+    "user_coverage": 1.0,
+    "full_top10_rate": 1.0,
+    "catalog_coverage": 0.004132231404958678,
+    "mean_recommendations": 10.0,
+    "mean_query_seconds": 0.008987401800695807
+  },
+  "extra": {
+    "algorithm": "SegmentSatisfaction"
+  }
+}

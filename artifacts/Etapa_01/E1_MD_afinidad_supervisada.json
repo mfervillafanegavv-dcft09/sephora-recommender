@@ -1,0 +1,81 @@
+{
+  "model": "04_afinidad_supervisada",
+  "protocol_id": "99fc64b0ea63f0e1e20f6a8a2d96aee1222e401c635a55983e8421df21673e4a",
+  "protocol_version": "cold-start-users-v2.0",
+  "selected_config": {
+    "C": 0.1
+  },
+  "validation": [
+    {
+      "config": {
+        "C": 0.1
+      },
+      "users": 500,
+      "hits": 5,
+      "hit_rate_at_10": 0.01,
+      "ndcg_at_10": 0.003263298253073968,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.009917355371900827,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.42299256460694595
+    },
+    {
+      "config": {
+        "C": 1.0
+      },
+      "users": 500,
+      "hits": 1,
+      "hit_rate_at_10": 0.002,
+      "ndcg_at_10": 0.0006309297535714575,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.011983471074380166,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.4017155058053322
+    },
+    {
+      "config": {
+        "C": 10.0
+      },
+      "users": 500,
+      "hits": 0,
+      "hit_rate_at_10": 0.0,
+      "ndcg_at_10": 0.0,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.01115702479338843,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.4126512022037059
+    }
+  ],
+  "test": {
+    "users": 500,
+    "hits": 3,
+    "hit_rate_at_10": 0.006,
+    "ndcg_at_10": 0.0021061494354492286,
+    "user_coverage": 1.0,
+    "full_top10_rate": 1.0,
+    "catalog_coverage": 0.009917355371900827,
+    "mean_recommendations": 10.0,
+    "mean_query_seconds": 0.16087707159761339
+  },
+  "baseline_test": {
+    "users": 500,
+    "hits": 37,
+    "hit_rate_at_10": 0.074,
+    "ndcg_at_10": 0.03316138770359746,
+    "user_coverage": 1.0,
+    "full_top10_rate": 1.0,
+    "catalog_coverage": 0.004132231404958678,
+    "mean_recommendations": 10.0,
+    "mean_query_seconds": 0.005851431594695896
+  },
+  "extra": {
+    "algorithm": "SupervisedAffinity",
+    "max_train_rows": 150000,
+    "rows_used": 150000,
+    "rows_available": 1084636,
+    "text_features": 500
+  }
+}

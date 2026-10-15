@@ -1,0 +1,91 @@
+{
+  "model": "E2_A1_vecinos_ponderados",
+  "protocol_id": "99fc64b0ea63f0e1e20f6a8a2d96aee1222e401c635a55983e8421df21673e4a",
+  "protocol_version": "cold-start-users-v2.0",
+  "selected_config": {
+    "k": 250
+  },
+  "validation": [
+    {
+      "config": {
+        "k": 50
+      },
+      "users": 500,
+      "hits": 27,
+      "hit_rate_at_10": 0.054,
+      "ndcg_at_10": 0.02915522116972996,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.18388429752066116,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.004835314396768808
+    },
+    {
+      "config": {
+        "k": 100
+      },
+      "users": 500,
+      "hits": 27,
+      "hit_rate_at_10": 0.054,
+      "ndcg_at_10": 0.033233138940576855,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.14256198347107438,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.004945892797783017
+    },
+    {
+      "config": {
+        "k": 250
+      },
+      "users": 500,
+      "hits": 34,
+      "hit_rate_at_10": 0.068,
+      "ndcg_at_10": 0.043240675933903724,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.10371900826446281,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.0071418099976144735
+    },
+    {
+      "config": {
+        "k": 500
+      },
+      "users": 500,
+      "hits": 34,
+      "hit_rate_at_10": 0.068,
+      "ndcg_at_10": 0.04050854328583903,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.06900826446280992,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.011899028589949012
+    }
+  ],
+  "test": {
+    "users": 500,
+    "hits": 30,
+    "hit_rate_at_10": 0.06,
+    "ndcg_at_10": 0.028093730110293216,
+    "user_coverage": 1.0,
+    "full_top10_rate": 1.0,
+    "catalog_coverage": 0.10909090909090909,
+    "mean_recommendations": 10.0,
+    "mean_query_seconds": 0.009671397602185607
+  },
+  "baseline_test": {
+    "users": 500,
+    "hits": 37,
+    "hit_rate_at_10": 0.074,
+    "ndcg_at_10": 0.03316138770359746,
+    "user_coverage": 1.0,
+    "full_top10_rate": 1.0,
+    "catalog_coverage": 0.004132231404958678,
+    "mean_recommendations": 10.0,
+    "mean_query_seconds": 0.005793888000771403
+  },
+  "extra": {
+    "algorithm": "ProfileKNN"
+  }
+}

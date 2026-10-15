@@ -1,0 +1,422 @@
+{
+  "model": "01_A4_perfil_popularidad_contenido",
+  "protocol_id": "99fc64b0ea63f0e1e20f6a8a2d96aee1222e401c635a55983e8421df21673e4a",
+  "protocol_version": "cold-start-users-v2.0",
+  "selected_config": {
+    "k": 500,
+    "alpha": 0.25,
+    "beta": 0.1
+  },
+  "validation": [
+    {
+      "config": {
+        "k": 100,
+        "alpha": 0.25,
+        "beta": 0.1
+      },
+      "users": 500,
+      "hits": 39,
+      "hit_rate_at_10": 0.078,
+      "ndcg_at_10": 0.04264537649296409,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.0371900826446281,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.02599976179935038
+    },
+    {
+      "config": {
+        "k": 100,
+        "alpha": 0.25,
+        "beta": 0.2
+      },
+      "users": 500,
+      "hits": 37,
+      "hit_rate_at_10": 0.074,
+      "ndcg_at_10": 0.04138422141601898,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.045454545454545456,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.036098363604862245
+    },
+    {
+      "config": {
+        "k": 100,
+        "alpha": 0.25,
+        "beta": 0.3
+      },
+      "users": 500,
+      "hits": 35,
+      "hit_rate_at_10": 0.07,
+      "ndcg_at_10": 0.03948509254397696,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.05619834710743802,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.029181383398827164
+    },
+    {
+      "config": {
+        "k": 100,
+        "alpha": 0.5,
+        "beta": 0.1
+      },
+      "users": 500,
+      "hits": 36,
+      "hit_rate_at_10": 0.072,
+      "ndcg_at_10": 0.04218305799107145,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.09132231404958678,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.020867867002263667
+    },
+    {
+      "config": {
+        "k": 100,
+        "alpha": 0.5,
+        "beta": 0.2
+      },
+      "users": 500,
+      "hits": 35,
+      "hit_rate_at_10": 0.07,
+      "ndcg_at_10": 0.04082673671290438,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.1012396694214876,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.020008117991499604
+    },
+    {
+      "config": {
+        "k": 100,
+        "alpha": 0.5,
+        "beta": 0.3
+      },
+      "users": 500,
+      "hits": 33,
+      "hit_rate_at_10": 0.066,
+      "ndcg_at_10": 0.03879135683382697,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.11776859504132231,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.019110932596959174
+    },
+    {
+      "config": {
+        "k": 100,
+        "alpha": 0.75,
+        "beta": 0.1
+      },
+      "users": 500,
+      "hits": 36,
+      "hit_rate_at_10": 0.072,
+      "ndcg_at_10": 0.040758502351405185,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.10867768595041322,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.019627678799908607
+    },
+    {
+      "config": {
+        "k": 100,
+        "alpha": 0.75,
+        "beta": 0.2
+      },
+      "users": 500,
+      "hits": 30,
+      "hit_rate_at_10": 0.06,
+      "ndcg_at_10": 0.035019540641802155,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.13677685950413224,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.02123374599777162
+    },
+    {
+      "config": {
+        "k": 250,
+        "alpha": 0.25,
+        "beta": 0.1
+      },
+      "users": 500,
+      "hits": 39,
+      "hit_rate_at_10": 0.078,
+      "ndcg_at_10": 0.0416749554638375,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.02066115702479339,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.020633381004910915
+    },
+    {
+      "config": {
+        "k": 250,
+        "alpha": 0.25,
+        "beta": 0.2
+      },
+      "users": 500,
+      "hits": 38,
+      "hit_rate_at_10": 0.076,
+      "ndcg_at_10": 0.04096084964300144,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.02727272727272727,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.02001273339241743
+    },
+    {
+      "config": {
+        "k": 250,
+        "alpha": 0.25,
+        "beta": 0.3
+      },
+      "users": 500,
+      "hits": 38,
+      "hit_rate_at_10": 0.076,
+      "ndcg_at_10": 0.040594205319305375,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.03264462809917355,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.020681435603648424
+    },
+    {
+      "config": {
+        "k": 250,
+        "alpha": 0.5,
+        "beta": 0.1
+      },
+      "users": 500,
+      "hits": 38,
+      "hit_rate_at_10": 0.076,
+      "ndcg_at_10": 0.04262498935779789,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.05950413223140496,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.023142969998065383
+    },
+    {
+      "config": {
+        "k": 250,
+        "alpha": 0.5,
+        "beta": 0.2
+      },
+      "users": 500,
+      "hits": 38,
+      "hit_rate_at_10": 0.076,
+      "ndcg_at_10": 0.04310953795137775,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.06900826446280992,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.020825250596739352
+    },
+    {
+      "config": {
+        "k": 250,
+        "alpha": 0.5,
+        "beta": 0.3
+      },
+      "users": 500,
+      "hits": 36,
+      "hit_rate_at_10": 0.072,
+      "ndcg_at_10": 0.04126458837581661,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.07727272727272727,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.026118518999777733
+    },
+    {
+      "config": {
+        "k": 250,
+        "alpha": 0.75,
+        "beta": 0.1
+      },
+      "users": 500,
+      "hits": 36,
+      "hit_rate_at_10": 0.072,
+      "ndcg_at_10": 0.04428307701891597,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.09008264462809917,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.020773687401786447
+    },
+    {
+      "config": {
+        "k": 250,
+        "alpha": 0.75,
+        "beta": 0.2
+      },
+      "users": 500,
+      "hits": 36,
+      "hit_rate_at_10": 0.072,
+      "ndcg_at_10": 0.04446553537077809,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.0987603305785124,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.020923088402021676
+    },
+    {
+      "config": {
+        "k": 500,
+        "alpha": 0.25,
+        "beta": 0.1
+      },
+      "users": 500,
+      "hits": 41,
+      "hit_rate_at_10": 0.082,
+      "ndcg_at_10": 0.04275637262632771,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.01487603305785124,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.02415900519490242
+    },
+    {
+      "config": {
+        "k": 500,
+        "alpha": 0.25,
+        "beta": 0.2
+      },
+      "users": 500,
+      "hits": 40,
+      "hit_rate_at_10": 0.08,
+      "ndcg_at_10": 0.04244343890815166,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.019008264462809916,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.024807544394861908
+    },
+    {
+      "config": {
+        "k": 500,
+        "alpha": 0.25,
+        "beta": 0.3
+      },
+      "users": 500,
+      "hits": 37,
+      "hit_rate_at_10": 0.074,
+      "ndcg_at_10": 0.04056202012197621,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.023553719008264463,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.024047739397734403
+    },
+    {
+      "config": {
+        "k": 500,
+        "alpha": 0.5,
+        "beta": 0.1
+      },
+      "users": 500,
+      "hits": 36,
+      "hit_rate_at_10": 0.072,
+      "ndcg_at_10": 0.04119859801464548,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.03760330578512397,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.02421478580357507
+    },
+    {
+      "config": {
+        "k": 500,
+        "alpha": 0.5,
+        "beta": 0.2
+      },
+      "users": 500,
+      "hits": 34,
+      "hit_rate_at_10": 0.068,
+      "ndcg_at_10": 0.04015392506198388,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.04173553719008265,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.024784448796883227
+    },
+    {
+      "config": {
+        "k": 500,
+        "alpha": 0.5,
+        "beta": 0.3
+      },
+      "users": 500,
+      "hits": 35,
+      "hit_rate_at_10": 0.07,
+      "ndcg_at_10": 0.04088186951785221,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.046694214876033056,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.023923028996679932
+    },
+    {
+      "config": {
+        "k": 500,
+        "alpha": 0.75,
+        "beta": 0.1
+      },
+      "users": 500,
+      "hits": 35,
+      "hit_rate_at_10": 0.07,
+      "ndcg_at_10": 0.04059851904580096,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.05785123966942149,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.024841486203018577
+    },
+    {
+      "config": {
+        "k": 500,
+        "alpha": 0.75,
+        "beta": 0.2
+      },
+      "users": 500,
+      "hits": 34,
+      "hit_rate_at_10": 0.068,
+      "ndcg_at_10": 0.04051267226288343,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.06446280991735537,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.02470184800075367
+    }
+  ],
+  "test": {
+    "users": 500,
+    "hits": 36,
+    "hit_rate_at_10": 0.072,
+    "ndcg_at_10": 0.032986205276573304,
+    "user_coverage": 1.0,
+    "full_top10_rate": 1.0,
+    "catalog_coverage": 0.015289256198347107,
+    "mean_recommendations": 10.0,
+    "mean_query_seconds": 0.021736654201988132
+  },
+  "baseline_test": {
+    "users": 500,
+    "hits": 37,
+    "hit_rate_at_10": 0.074,
+    "ndcg_at_10": 0.03316138770359746,
+    "user_coverage": 1.0,
+    "full_top10_rate": 1.0,
+    "catalog_coverage": 0.004132231404958678,
+    "mean_recommendations": 10.0,
+    "mean_query_seconds": 0.0037188352034427225
+  },
+  "extra": {
+    "algorithm": "ProfilePopularityContent",
+    "version": "perfil_popularidad_contenido"
+  }
+}

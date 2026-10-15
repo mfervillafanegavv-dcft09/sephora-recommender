@@ -1,0 +1,101 @@
+{
+  "model": "03_similitud_ponderada",
+  "protocol_id": "99fc64b0ea63f0e1e20f6a8a2d96aee1222e401c635a55983e8421df21673e4a",
+  "protocol_version": "cold-start-users-v2.0",
+  "selected_config": {
+    "weight_type": 0.5,
+    "weight_tone": 0.5,
+    "m": 50
+  },
+  "validation": [
+    {
+      "config": {
+        "weight_type": 1.0,
+        "weight_tone": 0.0,
+        "m": 50
+      },
+      "users": 500,
+      "hits": 3,
+      "hit_rate_at_10": 0.006,
+      "ndcg_at_10": 0.002613694774247774,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.008264462809917356,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.00939429020229727
+    },
+    {
+      "config": {
+        "weight_type": 0.8,
+        "weight_tone": 0.2,
+        "m": 50
+      },
+      "users": 500,
+      "hits": 3,
+      "hit_rate_at_10": 0.006,
+      "ndcg_at_10": 0.002892789260714372,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.009504132231404958,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.009137000997085124
+    },
+    {
+      "config": {
+        "weight_type": 0.7,
+        "weight_tone": 0.3,
+        "m": 50
+      },
+      "users": 500,
+      "hits": 4,
+      "hit_rate_at_10": 0.008,
+      "ndcg_at_10": 0.0035066558264453575,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.009917355371900827,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.014321104004047812
+    },
+    {
+      "config": {
+        "weight_type": 0.5,
+        "weight_tone": 0.5,
+        "m": 50
+      },
+      "users": 500,
+      "hits": 4,
+      "hit_rate_at_10": 0.008,
+      "ndcg_at_10": 0.0037479794958280425,
+      "user_coverage": 1.0,
+      "full_top10_rate": 1.0,
+      "catalog_coverage": 0.012396694214876033,
+      "mean_recommendations": 10.0,
+      "mean_query_seconds": 0.01288963899249211
+    }
+  ],
+  "test": {
+    "users": 500,
+    "hits": 8,
+    "hit_rate_at_10": 0.016,
+    "ndcg_at_10": 0.006803441800176585,
+    "user_coverage": 1.0,
+    "full_top10_rate": 1.0,
+    "catalog_coverage": 0.013636363636363636,
+    "mean_recommendations": 10.0,
+    "mean_query_seconds": 0.01022728959703818
+  },
+  "baseline_test": {
+    "users": 500,
+    "hits": 37,
+    "hit_rate_at_10": 0.074,
+    "ndcg_at_10": 0.03316138770359746,
+    "user_coverage": 1.0,
+    "full_top10_rate": 1.0,
+    "catalog_coverage": 0.004132231404958678,
+    "mean_recommendations": 10.0,
+    "mean_query_seconds": 0.008453971397131681
+  },
+  "extra": {
+    "algorithm": "WeightedProfileSatisfaction"
+  }
+}
