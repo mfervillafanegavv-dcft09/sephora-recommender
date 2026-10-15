@@ -39,3 +39,7 @@ data/processed/*
 # =========================
 .DS_Store
 Thumbs.db
+
+# Registros de ejecución de NEXA
+artifacts/nexa_deploy/*.log
+artifacts/nexa_deploy/*.jsonl
